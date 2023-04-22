@@ -1,26 +1,34 @@
 h1 {
 	color: darkred;
-	font-size: 70px;
+	font-size: 50px;
 	text-align: center;
 }
 
+
+
 h2 {
-color: darkred;
-font-size: 50px;
-text-align: center;
+    color: darkred;
+    font-size: 70px;
+    text-align: center;
 }
 
 body {
-background-color: #FFFF99;
-font-family: sans-serif;
+    background-color: #FFFF99;
+    font-family: sans-serif;
 }
 
 main img{
-border: 20px groove; #FFFF99;
-width: 470px;
-height: 350px;
-padding: 10px;
-margin: 10px;
+    border: 20px groove; #FFFF99;
+    width: 370px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+main img:hover{
+    height: 120px;
+    opacity: 1;
 }
 
 main p{
@@ -31,26 +39,48 @@ main p{
 
 nav{
 	background-color: #FF6600;
-	margin: 10 px;
+	margin: 5 px;
+	padding: 5 px;
+	display: flex;
+	justify-content: space-between ;
 }
 
 nav a{
-	padding: 5 px;
-	margin: 5 px;
-	border: 1 px solid blue;
+	padding: 5px;
+	margin:5px;
+	border: 1px solid blue;
 	background-color: white;
 	border-radius: 20px;
-	font-size: 20px;
+	font-size: 50px;
 	text-decoration: none;
 	color: darkred;
 }
 
+nav a:hover{
+    background-color: lightgreen;
+    color: azure;
+    font-size: 51px;
+}
+nav a:focus{
+	background-color: red;
+	color: violet;
+	font-size: 50px;
+	border: 10px dotted violet;
+}
+
 main{
-padding: 100px;
+    padding: 70px;
 }
 
 footer{
 	background-color: #FF0000;
+	padding: 10px;
+}
+
+footer img{
+	width: 100px;
+	height: 100px;
+	margin: 0px 30px 0px 30px;
 }
 
 footer p{
@@ -62,7 +92,56 @@ footer p{
 }
 
 footer img{
-	width: 350px;
-	height: 350px;
-margin: 0px 20px 0px 20px;
+	width: 150px;
+	height: 150px;
+    margin: 0px 30px 0px 30px;
 }
+
+.logo{
+    width: 70px;
+    height:70px ;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.adress p{
+	color: violet;
+	font-size:30px;
+	text-align: left;
+	background-color: white;
+	padding: 5px;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+}
+
+.product{
+	border: 7px solid brown;
+	background-color: lightgoldenrodyellow;
+	border-radius: 20px;
+	width: 450px;
+	height: 750px;
+}
+
+article {
+	display: flex;
+	justify-content: space-beetwen;
+	justify-content: space-around;
+}
+
+.FIDEO:hover{
+	transform: translateX(500px);
+	transition: 3s linear;
+}
+ 
+ .MUSIC:hover{
+ 	transform: translateX(500px);
+	transition: 3s linear;
+ }
